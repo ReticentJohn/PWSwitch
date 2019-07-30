@@ -12,8 +12,8 @@ import UIKit
 @IBDesignable
 open class PWSwitch: UIControl {
     
-    var backLayer: CALayer!
-    var thumbLayer: CALayer!
+    open private(set) var backLayer: CALayer!
+    open private(set) var thumbLayer: CALayer!
     
     open private(set) var on = false
     
